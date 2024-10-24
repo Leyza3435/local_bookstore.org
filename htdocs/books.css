@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+h1, h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu {
+    margin: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    width: 30%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 95%;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+ul li button {
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+nav ul li button:hover {
+    color: aqua;
+}
+
+nav ul li a:hover {
+    color: aqua;
+
+}
+
+a {
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.image {
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/Old-Library-Wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full height */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
